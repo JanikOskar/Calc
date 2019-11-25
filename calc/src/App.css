@@ -1,0 +1,126 @@
+body {
+  background-color: #e5e5e5;
+}
+.App {
+  position: absolute;
+  width: 300px;
+  height: 514px;
+  background-color: pink;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.calc {
+  height: 498px;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  margin-left: 6px;
+}
+.screen {
+  background-color: #46515f;
+  width: 288px;
+  height: 188px;
+}
+.buttons {
+  background-color: #495463;
+  width: 288px;
+  height: 310px;
+  
+}
+.del,
+.seven,
+.four,
+.one {
+  color: #d1d6db;
+  width: 72px;
+  height: 62px;
+  left: 0px;
+  background-color:#495463;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.zero {
+  width: 72px;
+  height: 62px;
+  background-color: #495463;
+  color: #d1d6db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign {
+  width: 72px;
+  height: 62px;
+  background-color:#495463;
+  margin-left: 72px;
+  margin-top: -310px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #d1d6db;
+}
+.eight,
+.five,
+.two {
+  width: 72px;
+  height: 62px;
+  background-color:#495463;
+  margin-left: 72px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #d1d6db;
+}
+.perc {
+  width: 72px;
+  height: 62px;
+  background-color:#495463;
+  margin-left: 144px;
+  margin-top: -248px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #d1d6db;
+}
+.nine,
+.six,
+.three,
+.comma {
+  width: 72px;
+  height: 62px;
+  background-color: #495463;
+  margin-left: 144px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #d1d6db;
+}
+.dzie {
+  width: 72px;
+  height: 62px;
+  background-color: #495463;
+  margin-left: 216px;
+  margin-top: -310px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #d1d6db;
+}
+.multi,
+.sub,
+.add,
+.equal {
+  width: 72px;
+  height: 62px;
+  background-color: #495463;
+  margin-left: 216px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #d1d6db;
+}
