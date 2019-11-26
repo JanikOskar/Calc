@@ -1,6 +1,14 @@
 body {
   background-color: #e5e5e5;
 }
+button {
+  border-radius: 0px 0px 15px 15px;
+  width: 72px;
+  height: 62px;
+  background-color: #495463;
+  color: #d1d6db;
+  border: transparent;
+}
 .App {
   position: absolute;
   width: 300px;
@@ -10,7 +18,10 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .calc {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius:15px;
   height: 498px;
   align-items: center;
   margin-top: 6px;
@@ -19,15 +30,26 @@ body {
   margin-left: 6px;
 }
 .screen {
+ border-radius: 15px 15px 0px 0px;
   background-color: #46515f;
   width: 288px;
   height: 188px;
+  font-size: 45px;
+  
+}
+.some {
+  position: absolute;
+  bottom:310px;
+  right:0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .buttons {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius:15px;
   background-color: #495463;
   width: 288px;
   height: 310px;
-  
 }
 .del,
 .seven,
@@ -37,12 +59,13 @@ body {
   width: 72px;
   height: 62px;
   left: 0px;
-  background-color:#495463;
+  background-color: #495463;
   align-items: center;
   text-align: center;
   justify-content: center;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .zero {
   width: 72px;
@@ -51,12 +74,13 @@ body {
   color: #d1d6db;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
+  border-bottom-left-radius:15px;
 }
 .sign {
   width: 72px;
   height: 62px;
-  background-color:#495463;
+  background-color: #495463;
   margin-left: 72px;
   margin-top: -310px;
   justify-content: center;
@@ -69,7 +93,7 @@ body {
 .two {
   width: 72px;
   height: 62px;
-  background-color:#495463;
+  background-color: #495463;
   margin-left: 72px;
   justify-content: center;
   display: flex;
@@ -79,7 +103,7 @@ body {
 .perc {
   width: 72px;
   height: 62px;
-  background-color:#495463;
+  background-color: #495463;
   margin-left: 144px;
   margin-top: -248px;
   justify-content: center;
@@ -123,4 +147,7 @@ body {
   display: flex;
   align-items: center;
   color: #d1d6db;
+}
+.equal{
+  border-bottom-right-radius:15px;
 }
