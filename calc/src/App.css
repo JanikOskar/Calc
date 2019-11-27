@@ -2,14 +2,16 @@ body {
   background-color: #e5e5e5;
 }
 button {
-  border-radius: 0px 0px 15px 15px;
+  border-radius: 0 0 0 0;
   width: 72px;
   height: 62px;
-  background-color: #495463;
+  background-color: #384351;
   color: #d1d6db;
   border: transparent;
+  font-size: 19px;
 }
-.App {
+
+#App {
   position: absolute;
   width: 300px;
   height: 514px;
@@ -18,136 +20,114 @@ button {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
-.calc {
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius:15px;
+form {
+  margin: 0px;
+}
+#calc {
   height: 498px;
-  align-items: center;
   margin-top: 6px;
   margin-bottom: 10px;
   margin-right: 8px;
   margin-left: 6px;
 }
-.screen {
- border-radius: 15px 15px 0px 0px;
-  background-color: #46515f;
+#form {
   width: 288px;
   height: 188px;
-  font-size: 45px;
-  
+  border-radius: 15px 15px 0px 0px;
+  background-color: #46515f;
+  border: 0px;
 }
-.some {
-  position: absolute;
-  bottom:310px;
-  right:0px;
-  text-overflow: ellipsis;
-  overflow: hidden;
+#input {
+  font-size: 25px;
+  text-align: right;
+  color: #f1f2f3;
 }
-.buttons {
+
+#buttons {
   border-bottom-right-radius: 15px;
-  border-bottom-left-radius:15px;
-  background-color: #495463;
+  border-bottom-left-radius: 15px;
+  background-color: #384351;
   width: 288px;
   height: 310px;
 }
-.del,
-.seven,
-.four,
-.one {
-  color: #d1d6db;
+#del,
+#seven,
+#four,
+#one {
   width: 72px;
   height: 62px;
-  left: 0px;
-  background-color: #495463;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
   cursor: pointer;
 }
-.zero {
+#zero {
   width: 72px;
   height: 62px;
-  background-color: #495463;
-  color: #d1d6db;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-  border-bottom-left-radius:15px;
+  border-bottom-left-radius: 15px;
 }
-.sign {
+#pm {
   width: 72px;
   height: 62px;
-  background-color: #495463;
+
   margin-left: 72px;
   margin-top: -310px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  color: #d1d6db;
 }
-.eight,
-.five,
-.two {
+#eight,
+#five,
+#two {
   width: 72px;
   height: 62px;
-  background-color: #495463;
+
   margin-left: 72px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  color: #d1d6db;
 }
-.perc {
+#perc {
   width: 72px;
   height: 62px;
-  background-color: #495463;
+
   margin-left: 144px;
   margin-top: -248px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  color: #d1d6db;
 }
-.nine,
-.six,
-.three,
-.comma {
+#nine,
+#six,
+#three,
+#comma {
   width: 72px;
   height: 62px;
-  background-color: #495463;
+
   margin-left: 144px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  color: #d1d6db;
 }
-.dzie {
+#dzie {
   width: 72px;
   height: 62px;
-  background-color: #495463;
   margin-left: 216px;
   margin-top: -310px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  color: #d1d6db;
 }
-.multi,
-.sub,
-.add,
-.equal {
+#multi,
+#sub,
+#add,
+#equal {
   width: 72px;
   height: 62px;
-  background-color: #495463;
   margin-left: 216px;
   justify-content: center;
   display: flex;
   align-items: center;
-  color: #d1d6db;
 }
-.equal{
-  border-bottom-right-radius:15px;
+#equal {
+  border-bottom-right-radius: 15px;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #485460;
+  text-align: center;
+}
+.b0 {
+  border-bottom-left-radius: 15px;
+}
+.beq {
+  border-bottom-right-radius: 15px;
 }
