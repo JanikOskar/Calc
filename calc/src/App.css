@@ -1,133 +1,148 @@
 body {
-  background-color: #e5e5e5;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
 }
+
 button {
-  border-radius: 0 0 0 0;
-  width: 72px;
-  height: 62px;
-  background-color: #384351;
-  color: #d1d6db;
-  border: transparent;
-  font-size: 19px;
+    width: 72px;
+    height: 62px;
+    background-color: #384351;
+    color: #d1d6db;
+    border: transparent;
+    font-size: 19px;
+}
+
+#form {
+    margin: 0px;
 }
 
 #App {
-  position: absolute;
-  width: 300px;
-  height: 514px;
-  background-color: pink;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+    background: rgb(241, 124, 157);
+    background: linear-gradient( 90deg, rgba(241, 124, 157, 1) 0%, rgba(237, 114, 158, 1) 39%, rgba(237, 114, 158, 1) 67%, rgba(237, 114, 158, 1) 86%, rgba(209, 73, 153, 1) 100%);
 }
-form {
-  margin: 0px;
-}
+
 #calc {
-  height: 498px;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  margin-right: 8px;
-  margin-left: 6px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    margin-right: 8px;
+    margin-left: 6px;
 }
-#form {
-  width: 288px;
-  height: 188px;
-  border-radius: 15px 15px 0px 0px;
-  background-color: #46515f;
-  border: 0px;
+
+#screen {
+    background: rgb(78, 89, 103);
+    background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
+    border-radius: 4px 4px 0px 0px;
+    margin: 0px;
 }
+
+#history {
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 19px;
+    color: #949dac;
+}
+
 #input {
-  font-size: 25px;
-  text-align: right;
-  color: #f1f2f3;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: right;
+    color: #f1f2f3;
+    width: 288px;
+    background: rgb(78, 89, 103);
+    background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
+    border: transparent;
 }
 
 #buttons {
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  background-color: #384351;
-  width: 288px;
-  height: 310px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #384351;
+    width: 288px;
+    height: 310px;
 }
-#del,
-#seven,
-#four,
-#one {
-  width: 72px;
-  height: 62px;
-  cursor: pointer;
+
+.first {
+    width: 72px;
+    height: 62px;
 }
+
 #zero {
-  width: 72px;
-  height: 62px;
-  border-bottom-left-radius: 15px;
+    width: 72px;
+    height: 62px;
+    border-bottom-left-radius: 4px;
 }
+
 #pm {
-  width: 72px;
-  height: 62px;
-
-  margin-left: 72px;
-  margin-top: -310px;
+    width: 72px;
+    height: 62px;
+    margin-left: 72px;
+    margin-top: -310px;
 }
-#eight,
-#five,
-#two {
-  width: 72px;
-  height: 62px;
 
-  margin-left: 72px;
+.second {
+    width: 72px;
+    height: 62px;
+    margin-left: 72px;
 }
+
 #perc {
-  width: 72px;
-  height: 62px;
-
-  margin-left: 144px;
-  margin-top: -248px;
+    width: 72px;
+    height: 62px;
+    margin-left: 144px;
+    margin-top: -248px;
 }
-#nine,
-#six,
-#three,
-#comma {
-  width: 72px;
-  height: 62px;
 
-  margin-left: 144px;
+.third {
+    width: 72px;
+    height: 62px;
+    margin-left: 144px;
 }
+
 #dzie {
-  width: 72px;
-  height: 62px;
-  margin-left: 216px;
-  margin-top: -310px;
-}
-#multi,
-#sub,
-#add,
-#equal {
-  width: 72px;
-  height: 62px;
-  margin-left: 216px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-#equal {
-  border-bottom-right-radius: 15px;
+    width: 72px;
+    height: 62px;
+    margin-left: 216px;
+    margin-top: -310px;
 }
 
-.circle1,
-.circle2,
-.circle3,
-.circle4 {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #485460;
-  text-align: center;
+.fourth {
+    width: 72px;
+    height: 62px;
+    margin-left: 216px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
+
+#equal {
+    border-bottom-right-radius: 4px;
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #485460;
+    text-align: center;
+    font-size: 25px;
+    color: #b0b8c5;
+}
+
 .b0 {
-  border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 4px;
 }
+
 .beq {
-  border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 4px;
+}
+
+.up {
+    color: #5f6a78;
+}
+
+#dz {
+    font-size: 31px;
 }
