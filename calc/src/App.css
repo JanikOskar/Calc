@@ -13,10 +13,15 @@ button {
     color: #d1d6db;
     border: transparent;
     font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 #form {
-    margin: 0px;
+    margin-bottom: 0px;
+    background: rgb(78, 89, 103);
+    background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
 }
 
 #App {
@@ -32,10 +37,10 @@ button {
 }
 
 #screen {
+    height: 100px;
     background: rgb(78, 89, 103);
     background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
     border-radius: 4px 4px 0px 0px;
-    margin: 0px;
 }
 
 #history {
@@ -45,8 +50,9 @@ button {
     color: #949dac;
 }
 
-#input {
+.inputt {
     margin-bottom: 20px;
+    height: 25px;
     font-size: 25px;
     text-align: right;
     color: #f1f2f3;
@@ -72,7 +78,6 @@ button {
 #zero {
     width: 72px;
     height: 62px;
-    border-bottom-left-radius: 4px;
 }
 
 #pm {
@@ -117,7 +122,7 @@ button {
     align-items: center;
 }
 
-#equal {
+.equal {
     border-bottom-right-radius: 4px;
 }
 
@@ -129,20 +134,23 @@ button {
     text-align: center;
     font-size: 25px;
     color: #b0b8c5;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
-.b0 {
+#b0 {
     border-bottom-left-radius: 4px;
 }
 
 .beq {
-    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
-.up {
+#up {
     color: #5f6a78;
 }
 
-#dz {
+.dz {
     font-size: 31px;
 }
