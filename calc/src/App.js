@@ -13,30 +13,28 @@ let input = el("#input"),
     theNum = "",
     oldNum = "",
     resultNum,
-    operator;
-
+    operator = "";
 
 let setNum = function() {
     if (resultNum) {
         theNum = this.getAttribute("data-num");
         resultNum = "";
-
     } else {
         theNum += this.getAttribute("data-num");
     }
-    history.innerHTML = theNum;
+    history.innerHTML = [oldNum + operator + theNum];
 };
-
 let moveNum = function() {
     oldNum = theNum;
     theNum = "";
     operator = this.getAttribute("data-ops");
     equals.setAttribute("data-result", "");
 };
+
+
 let displayNum = function() {
     oldNum = parseFloat(oldNum);
     theNum = parseFloat(theNum);
-
     switch (operator) {
         case "+":
             resultNum = oldNum + theNum;
@@ -72,8 +70,9 @@ let displayNum = function() {
 let clearAll = function() {
     oldNum = "";
     theNum = "";
+    operator = "";
     history.innerHTML = "";
-    input.innerHTML = "0";
+    input.innerHTML = "";
     equals.setAttribute("data-result", resultNum);
 };
 

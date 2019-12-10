@@ -1,157 +1,157 @@
-body {
-    background-color: #ffffff;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 100vh;
-}
-
-button {
-    width: 72px;
-    height: 62px;
-    background-color: #384351;
-    color: #d1d6db;
-    border: transparent;
-    font-size: 19px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-#form {
-    margin-bottom: 0px;
-    background: rgb(78, 89, 103);
-    background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
-}
-
-#App {
-    background: rgb(241, 124, 157);
-    background: linear-gradient( 90deg, rgba(241, 124, 157, 1) 0%, rgba(237, 114, 158, 1) 39%, rgba(237, 114, 158, 1) 67%, rgba(237, 114, 158, 1) 86%, rgba(209, 73, 153, 1) 100%);
-}
-
-#calc {
-    margin-bottom: 10px;
-    margin-top: 6px;
-    margin-right: 8px;
-    margin-left: 6px;
-}
-
-#screen {
-    height: 100px;
-    background: rgb(78, 89, 103);
-    background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
-    border-radius: 4px 4px 0px 0px;
-}
-
-#history {
-    margin-bottom: 30px;
-    text-align: right;
-    font-size: 19px;
-    color: #949dac;
-    height: 25px;
-}
-
-.input {
-    margin-bottom: 20px;
-    height: 25px;
-    font-size: 25px;
-    text-align: right;
-    color: #f1f2f3;
-    width: 288px;
-    background: rgb(78, 89, 103);
-    background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
-    border: transparent;
-}
-
-#buttons {
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    background-color: #384351;
-    width: 288px;
-    height: 310px;
-}
-
-.first {
-    width: 72px;
-    height: 62px;
-}
-
-#zero {
-    width: 72px;
-    height: 62px;
-}
-
-#pm {
-    width: 72px;
-    height: 62px;
-    margin-left: 72px;
-    margin-top: -310px;
-}
-
-.second {
-    width: 72px;
-    height: 62px;
-    margin-left: 72px;
-}
-
-#perc {
-    width: 72px;
-    height: 62px;
-    margin-left: 144px;
-    margin-top: -248px;
-}
-
-.third {
-    width: 72px;
-    height: 62px;
-    margin-left: 144px;
-}
-
-#dzie {
-    width: 72px;
-    height: 62px;
-    margin-left: 216px;
-    margin-top: -310px;
-}
-
-.fourth {
-    width: 72px;
-    height: 62px;
-    margin-left: 216px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
-.equal {
-    border-bottom-right-radius: 4px;
-}
-
-.circle {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-color: #485460;
-    text-align: center;
-    font-size: 25px;
-    color: #b0b8c5;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
-#b0 {
-    border-bottom-left-radius: 4px;
-}
-
-.beq {
-    border-bottom-left-radius: 4px;
-}
-
-#up {
-    color: #5f6a78;
-}
-
-#dz {
-    font-size: 36px;
-}
+    body {
+        background-color: #ffffff;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100vh;
+    }
+    
+    button {
+        width: 72px;
+        height: 62px;
+        background-color: #384351;
+        color: #d1d6db;
+        border: transparent;
+        font-size: 19px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    #form {
+        margin-bottom: 0px;
+        background: rgb(78, 89, 103);
+        background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
+    }
+    
+    #App {
+        background: rgb(242, 132, 163);
+        background: linear-gradient(140deg, rgba(242, 132, 163, 1) 0%, rgba(208, 72, 153, 1) 100%);
+    }
+    
+    #calc {
+        margin-bottom: 10px;
+        margin-top: 6px;
+        margin-right: 8px;
+        margin-left: 6px;
+    }
+    
+    #screen {
+        height: 100px;
+        background: rgb(78, 89, 103);
+        background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
+        border-radius: 4px 4px 0px 0px;
+    }
+    
+    #history {
+        margin-bottom: 30px;
+        text-align: right;
+        font-size: 19px;
+        color: #949dac;
+        height: 25px;
+    }
+    
+    .input {
+        margin-bottom: 20px;
+        height: 25px;
+        font-size: 25px;
+        text-align: right;
+        color: #f1f2f3;
+        width: 288px;
+        background: rgb(78, 89, 103);
+        background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
+        border: transparent;
+    }
+    
+    #buttons {
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-color: #384351;
+        width: 288px;
+        height: 310px;
+    }
+    
+    .first {
+        width: 72px;
+        height: 62px;
+    }
+    
+    #zero {
+        width: 72px;
+        height: 62px;
+    }
+    
+    #pm {
+        width: 72px;
+        height: 62px;
+        margin-left: 72px;
+        margin-top: -310px;
+    }
+    
+    .second {
+        width: 72px;
+        height: 62px;
+        margin-left: 72px;
+    }
+    
+    #perc {
+        width: 72px;
+        height: 62px;
+        margin-left: 144px;
+        margin-top: -248px;
+    }
+    
+    .third {
+        width: 72px;
+        height: 62px;
+        margin-left: 144px;
+    }
+    
+    #dzie {
+        width: 72px;
+        height: 62px;
+        margin-left: 216px;
+        margin-top: -310px;
+    }
+    
+    .fourth {
+        width: 72px;
+        height: 62px;
+        margin-left: 216px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .equal {
+        border-bottom-right-radius: 4px;
+    }
+    
+    .circle {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #485460;
+        text-align: center;
+        font-size: 25px;
+        color: #b0b8c5;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    #b0 {
+        border-bottom-left-radius: 4px;
+    }
+    
+    .beq {
+        border-bottom-left-radius: 4px;
+    }
+    
+    #up {
+        color: #5f6a78;
+    }
+    
+    #dz {
+        font-size: 36px;
+    }
