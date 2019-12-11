@@ -6,7 +6,7 @@ body {
     height: 100vh;
 }
 
-button {
+.button {
     width: 72px;
     height: 62px;
     background-color: #384351;
@@ -25,8 +25,8 @@ button {
 }
 
 #App {
-    background: rgb(241, 124, 157);
-    background: linear-gradient( 90deg, rgba(241, 124, 157, 1) 0%, rgba(237, 114, 158, 1) 39%, rgba(237, 114, 158, 1) 67%, rgba(237, 114, 158, 1) 86%, rgba(209, 73, 153, 1) 100%);
+    background: rgb(242, 132, 163);
+    background: linear-gradient( 90deg, rgba(242, 132, 163, 1) 0%, rgba(208, 72, 153, 1) 100%);
 }
 
 #calc {
@@ -48,9 +48,10 @@ button {
     text-align: right;
     font-size: 19px;
     color: #949dac;
+    height: 25px;
 }
 
-.inputt {
+.input {
     margin-bottom: 20px;
     height: 25px;
     font-size: 25px;
@@ -152,5 +153,5 @@ button {
 }
 
 .dz {
-    font-size: 31px;
+    font-size: 36px;
 }
