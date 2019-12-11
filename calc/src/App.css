@@ -6,7 +6,7 @@
         height: 100vh;
     }
     
-    button {
+    .button {
         width: 72px;
         height: 62px;
         background-color: #384351;
@@ -40,7 +40,7 @@
         height: 100px;
         background: rgb(78, 89, 103);
         background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
-        border-radius: 4px 4px 0px 0px;
+        border-radius: 4px 4px 0 0;
     }
     
     #history {
@@ -152,6 +152,6 @@
         color: #5f6a78;
     }
     
-    #dz {
+    .dz {
         font-size: 36px;
     }
