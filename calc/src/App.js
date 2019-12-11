@@ -31,7 +31,6 @@ let moveNum = function() {
     equals.setAttribute("data-result", "");
 };
 
-
 let displayNum = function() {
     oldNum = parseFloat(oldNum);
     theNum = parseFloat(theNum);
@@ -39,7 +38,6 @@ let displayNum = function() {
         case "+":
             resultNum = oldNum + theNum;
             break;
-
         case "-":
             resultNum = oldNum - theNum;
             break;
@@ -51,22 +49,27 @@ let displayNum = function() {
         case "/":
             resultNum = oldNum / theNum;
             break;
-
+        case "-":
+            resultNum = oldNum - theNum;
+            break;
+        case "*":
+            resultNum = oldNum * theNum;
+            break;
+        case "/":
+            resultNum = oldNum / theNum;
+            break;
 
         case "%":
             resultNum = oldNum % theNum;
             break;
-
         default:
             resultNum = theNum;
     }
-
     input.innerHTML = resultNum;
     equals.setAttribute("data-result", resultNum);
     oldNum = 0;
     theNum = resultNum;
 };
-
 let clearAll = function() {
     oldNum = "";
     theNum = "";
@@ -80,9 +83,12 @@ for (let i = 0, l = nums.length; i < l; i++) {
     nums[i].onclick = setNum;
 }
 
+=======
+for (let i = 0, l = nums.length; i < l; i++) {
+    nums[i].onclick = setNum;
+}
 for (let i = 0, l = ops.length; i < l; i++) {
     ops[i].onclick = moveNum;
 }
-
 equals.onclick = displayNum;
 el("#clean").onclick = clearAll;
