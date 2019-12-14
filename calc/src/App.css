@@ -1,3 +1,7 @@
+* {
+    outline: 0;
+}
+
 body {
     background-color: #ffffff;
     align-items: center;
@@ -6,20 +10,7 @@ body {
     height: 100vh;
 }
 
-.button {
-    width: 72px;
-    height: 62px;
-    background-color: #384351;
-    color: #d1d6db;
-    border: transparent;
-    font-size: 19px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
 #form {
-    margin-bottom: 0px;
     background: rgb(78, 89, 103);
     background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
 }
@@ -37,13 +28,14 @@ body {
 }
 
 #screen {
-    height: 100px;
     background: rgb(78, 89, 103);
     background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
     border-radius: 4px 4px 0px 0px;
 }
 
 #history {
+    padding-top: 10px;
+    margin-right: 12px;
     margin-bottom: 30px;
     text-align: right;
     font-size: 19px;
@@ -52,12 +44,13 @@ body {
 }
 
 .input {
-    margin-bottom: 20px;
+    margin-right: 12px;
+    padding-bottom: 20px;
     height: 25px;
     font-size: 25px;
     text-align: right;
     color: #f1f2f3;
-    width: 288px;
+    width: 276px;
     background: rgb(78, 89, 103);
     background: linear-gradient( 90deg, rgba(78, 89, 103, 1) 0%, rgba(70, 81, 95, 1) 48%, rgba(58, 69, 84, 1) 100%, rgba(79, 90, 104, 1) 100%);
     border: transparent;
@@ -69,62 +62,29 @@ body {
     background-color: #384351;
     width: 288px;
     height: 310px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.first {
+.button {
     width: 72px;
     height: 62px;
-}
-
-#zero {
-    width: 72px;
-    height: 62px;
-}
-
-#pm {
-    width: 72px;
-    height: 62px;
-    margin-left: 72px;
-    margin-top: -310px;
-}
-
-.second {
-    width: 72px;
-    height: 62px;
-    margin-left: 72px;
-}
-
-#perc {
-    width: 72px;
-    height: 62px;
-    margin-left: 144px;
-    margin-top: -248px;
-}
-
-.third {
-    width: 72px;
-    height: 62px;
-    margin-left: 144px;
-}
-
-#dzie {
-    width: 72px;
-    height: 62px;
-    margin-left: 216px;
-    margin-top: -310px;
-}
-
-.fourth {
-    width: 72px;
-    height: 62px;
-    margin-left: 216px;
+    background-color: #384351;
+    color: #d1d6db;
+    font-size: 19px;
+    align-items: center;
     justify-content: center;
     display: flex;
-    align-items: center;
+    border: transparent;
+    outline: none;
 }
 
-.equal {
-    border-bottom-right-radius: 4px;
+button:hover {
+    background: grey;
+}
+
+.zero {
+    width: 144px;
 }
 
 .circle {
