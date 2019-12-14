@@ -13,7 +13,8 @@ let input = el("#input"),
     theNum = "",
     oldNum = "",
     resultNum,
-    operator = "";
+    operator = "",
+    equal = "";
 
 let setNum = function() {
     if (resultNum) {
@@ -22,51 +23,44 @@ let setNum = function() {
     } else {
         theNum += this.getAttribute("data-num");
     }
-    history.innerHTML = [oldNum + operator + theNum];
+    history.innerHTML = [oldNum + " " + operator + " " + theNum + " " + equal];
 };
 let moveNum = function() {
     oldNum = theNum;
     theNum = "";
     operator = this.getAttribute("data-ops");
     equals.setAttribute("data-result", "");
+    equal = "=";
 };
-
-
 let displayNum = function() {
     oldNum = parseFloat(oldNum);
     theNum = parseFloat(theNum);
     switch (operator) {
-        case "+":
+        case '+':
             resultNum = oldNum + theNum;
             break;
-
         case "-":
             resultNum = oldNum - theNum;
             break;
-
         case "*":
             resultNum = oldNum * theNum;
             break;
-
         case "/":
             resultNum = oldNum / theNum;
             break;
-
-
-        case "%":
+        case '%':
             resultNum = oldNum % theNum;
             break;
-
         default:
             resultNum = theNum;
     }
-
     input.innerHTML = resultNum;
     equals.setAttribute("data-result", resultNum);
-    oldNum = 0;
+    oldNum = "";
     theNum = resultNum;
+    operator = "";
+    equal = "";
 };
-
 let clearAll = function() {
     oldNum = "";
     theNum = "";
@@ -74,15 +68,12 @@ let clearAll = function() {
     history.innerHTML = "";
     input.innerHTML = "";
     equals.setAttribute("data-result", resultNum);
+    equal = "";
 };
-
 for (let i = 0, l = nums.length; i < l; i++) {
     nums[i].onclick = setNum;
 }
-
 for (let i = 0, l = ops.length; i < l; i++) {
     ops[i].onclick = moveNum;
 }
-
-equals.onclick = displayNum;
 el("#clean").onclick = clearAll;
